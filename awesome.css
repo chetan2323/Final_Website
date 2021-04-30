@@ -1,0 +1,265 @@
+body,html
+{
+	font-size: 62.5%;
+	height: 100%;
+	width: 100%;
+
+  background-color: black !important;
+  margin-bottom: 100%;
+
+}
+
+.name_icon
+{
+	width: 75%;
+  fill: white;
+}
+
+
+.about
+{
+  color: white;
+	font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1;
+  font-family: Sequel,sans-serif;
+  -webkit-letter-spacing: 0.5em;
+  -moz-letter-spacing: 0.5em;
+  -ms-letter-spacing: 0.5em;
+  letter-spacing: 0.5em;
+  cursor: pointer;
+}
+
+#abt::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+#abt:hover::after {
+    width: 100%;
+}
+
+.top_name
+{
+	margin-left: 10%;
+	font-weight: bold;
+	color: black;
+	letter-spacing: -10%;
+	display: none;
+	transition: linear 2s;
+	font-size: 3rem;
+  font-family: Sequel, sans-serif;
+  text-size-adjust: 100%;
+  animation: all ease 2s;
+  color: white;
+}
+
+.menu a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+ 
+.menu a span:last-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-110%);
+}
+
+.menu a span {
+  transition: transform 0.2s ease-out;
+}
+ 
+.menu a:hover span:first-child {
+  transform: translateY(100%);
+}
+ 
+.menu a:hover span:last-child {
+  transform: none;
+}
+
+.para
+{
+  color: white;
+  font-size: 2.9rem;
+}
+
+.blocks
+{
+  width: 100%;
+  height: 100%;
+}
+
+.myblock
+{
+  width: 30%;
+  height: 60%;
+  color: white;
+
+  background-repeat:no-repeat;
+  background-position:0% 0%;
+  background-size: 100% 100%;
+
+  opacity: 0.75;
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+}
+
+.myblock:hover
+{
+  transform: scale(1.1);
+}
+
+.block_text
+{
+  text-align: center;
+  margin-top: 50%;
+  font-size: 4rem;
+
+  font-family: Sequel, sans-serif;
+  text-size-adjust: 100%;
+}
+
+#second_row
+{
+  margin-top: -16%;
+}
+
+.ach_head
+{
+  font-size: 15rem;
+  font-family: Sequel, sans-serif;
+  text-size-adjust: 100%;
+  line-height: 0.9;
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.ach_table
+{
+  margin-left: 3%;
+  margin-top: 5%;
+  width: 94%;
+}
+
+.ach_title
+{
+  color: white;
+      font-weight: 800;
+    line-height: 1;
+    font-family: Sequel, sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.ach_text
+{
+  color: white;
+  font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 1;
+    font-family: SourceSerifPro, serif;
+    text-align: right;
+}
+
+.ach_line
+{
+  background-color: #D3D3D3;
+  height: 0.5px;
+}
+
+.education
+{
+  color: white;
+  /*margin-top: 10%;*/
+  font-size: 1.2rem;
+  font-weight: normal;
+    /*line-height: 1;*/
+    font-family: Sequel, sans-serif;
+    letter-spacing: 0.3em;
+}
+
+.edu
+{
+  color: white;
+  font-weight: 800;
+    line-height: 1;
+    font-family: Sequel, sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.degree
+{
+  margin-top: -7%;
+}
+
+.contact
+{
+  margin-top: 20%;
+}
+
+.common_text
+{
+  color: white;
+  font-weight: 800;
+    line-height: 1;
+    font-family: Sequel, sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    cursor: pointer;
+
+
+}
+
+.box {  
+  transition: opacity 2s linear;  
+  transform:translate(0);
+  opacity: 1;
+}  
+.hidden {  
+  transform:translate(9999px);
+  opacity: 0;  
+}
+
+.mumma
+{
+  background-image: url("mumma.jpg");
+}
+
+.pita
+{
+  background-image: url("dad.jpg");
+}
+
+.me
+{
+  background-image: url("twinks.jpg");
+}
+
+.sid
+{
+  background-image: url("bro.jpg");
+}
+
+.nishu
+{
+  background-image: url("sist.jpg");
+}
+
+.mys
+{
+  background-image: url("Block.jpg");
+}

@@ -1,0 +1,133 @@
+body,html
+{
+	font-size: 62.5%;
+	height: 100%;
+	width: 100%;
+
+  background-color: black !important;
+  margin-bottom: 100%;
+
+}
+
+.name_icon
+{
+	width: 75%;
+  fill: white;
+}
+
+
+.about
+{
+  color: white;
+	font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1;
+  font-family: Sequel,sans-serif;
+  -webkit-letter-spacing: 0.5em;
+  -moz-letter-spacing: 0.5em;
+  -ms-letter-spacing: 0.5em;
+  letter-spacing: 0.5em;
+  cursor: pointer;
+}
+
+#abt::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+#abt:hover::after {
+    width: 100%;
+}
+
+.top_name
+{
+	margin-left: 10%;
+	font-weight: bold;
+	color: black;
+	letter-spacing: -10%;
+	display: none;
+	transition: linear 2s;
+	font-size: 3rem;
+  font-family: Sequel, sans-serif;
+  text-size-adjust: 100%;
+  animation: all ease 2s;
+  color: white;
+}
+
+.menu a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+ 
+.menu a span:last-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-110%);
+}
+
+.menu a span {
+  transition: transform 0.2s ease-out;
+}
+ 
+.menu a:hover span:first-child {
+  transform: translateY(100%);
+}
+ 
+.menu a:hover span:last-child {
+  transform: none;
+}
+
+.main_name
+{
+  text-align: center;
+  font-size: 15rem;
+  font-family: Sequel, sans-serif;
+  text-size-adjust: 100%;
+  line-height: 0.9;
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.det_text
+{
+  color: white;
+      font-weight: 800;
+    line-height: 1;
+    font-family: Sequel, sans-serif;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+.det_label
+{
+  color: white;
+  font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 1;
+    font-family: SourceSerifPro, serif;
+}
+
+.video_box
+{
+  text-align: center;
+}
+
+
+.myimg
+{
+  height: 400px !important;
+  width: 400px;
+}
